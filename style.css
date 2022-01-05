@@ -14,7 +14,7 @@
 }
 .left-section
 {
-    grid-template-columns: auto;
+    grid-column: span 1;
     background-color: grey;  
 }
 .left-content{
@@ -89,7 +89,7 @@
     width: 100%;
 }
 .right-section{
-    grid-template-columns: auto;
+    grid-column: span 1/ span 2;
     background-color: whitesmoke;
 }
 .right-main-content{
