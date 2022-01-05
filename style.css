@@ -6,4 +6,112 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Write CSS code below */
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    height: 1000px;
+    width: 90%;
+}
+.left-section
+{
+    background-color: grey;  
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-image{
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .02px;
+    padding: .8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding : 1rem;
+}
+.fa{
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github{
+    background: rgb(27, 26, 26);
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem .05rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    width: 100%;
+}
+.right-section{
+    background-color: whitesmoke;
+}
+.right-main-content{
+    padding : 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding : 0.5rem;
+    letter-spacing: 1px;
+}
+.about{
+    padding : 0.5rem;
+}
+.education{
+    text-transform: uppercase;
+    padding : 0.5rem;
+}
+.experience{
+    padding: 0.5rem;
+}
+@media screen and (max-width : 673px) {
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
